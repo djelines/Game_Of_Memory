@@ -1,9 +1,9 @@
-# 🧠 Memory Game
+# 🧠 Game Of Memory
 
 ## 🇫🇷 Français
 
 ### Description
-Memory Game est un jeu de mémoire où les joueurs doivent retrouver des paires de cartes identiques en retournant deux cartes à chaque tour. Le jeu teste vos capacités de mémoire et de concentration à travers une interface web interactive.
+Game Of Memory est un jeu de mémoire où les joueurs doivent retrouver des paires de cartes identiques en retournant deux cartes à chaque tour. Le jeu teste vos capacités de mémoire et de concentration à travers une interface web interactive.
 
 ### Fonctionnalités
 - Interface interactive.
@@ -44,7 +44,7 @@ Memory Game est un jeu de mémoire où les joueurs doivent retrouver des paires 
 ## 🇬🇧 English
 
 ### Description
-Memory Game is a memory puzzle game where players must find pairs of identical cards by flipping two cards per turn. The game tests your memory and focus through an interactive web interface.
+Game Of Memory is a memory puzzle game where players must find pairs of identical cards by flipping two cards per turn. The game tests your memory and focus through an interactive web interface.
 
 ### Features
 - Interactive interface.
