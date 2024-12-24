@@ -23,7 +23,7 @@ Memory Game est un jeu de mémoire où les joueurs doivent retrouver des paires 
 
 4. Lancez le serveur web et ouvrez votre navigateur à l'adresse :
     ```
-    http://localhost/memory.php
+    http://localhost/Memory_Game-main/memory.php
     ```
 
 ### Prérequis
@@ -64,7 +64,7 @@ Memory Game is a memory puzzle game where players must find pairs of identical c
 
 4. Start your web server and open your browser at:
     ```
-    http://localhost/memory.php
+    http://localhost/Memory_Game-main/memory.php
     ```
 
 ### Prerequisites
