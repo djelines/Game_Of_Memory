@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--header-color);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--menu-color);
+}
+
+.menu {
+  color: var(--menu-color);
+  margin: 0 20px;
+  justify-content: space-around;
+  font-size: 23px;
+}
+
+.menu:hover {
+  color: var(--menu-color-hover);
+}
+
+/* Footer toujours en bas */
+.footer {
+  background-color: var(--header-color);
+  color: var(--highlight-color);
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+/* Contenu principal du footer */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Liens du footer */
+.footer-links a {
+  color: var(--highlight-color);
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--menu-color);
+}
+
+/* Icônes sociales */
+.footer-social a {
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--highlight-color);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+  color: var(--menu-color);
+}
+
+/* Message de bas de page */
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--menu-color);
+}
+
+/* Icônes FontAwesome - pour alignement */
+.footer-social i {
+  display: inline-block;
+  vertical-align: middle;
+}

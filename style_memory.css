@@ -1,0 +1,139 @@
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.valid-button {
+  border: var(--button-border-color) double 5px;
+  background-color: var(--button-color);
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  margin: auto;
+  color: var(--highlight-color);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.valid-button:hover {
+  border-radius: 20px;
+  background-color: var(--button-hover-color);
+  border: var(--button-border-color) double 5px;
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+h3,
+span {
+  text-align: center;
+  margin: 15px 0;
+  color: var(--text-color);
+}
+
+#popup.open {
+  background-color: var(--popup-bg);
+  position: relative;
+  opacity: 1;
+  transition: ease-in 0.6s;
+  z-index: 1000;
+}
+
+#popup {
+  opacity: 0;
+}
+
+.pop-message {
+  background: linear-gradient(80deg, #ddb892, #ede0d4, #ddb892);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.pop-message h4,
+.pop-message p {
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.pop-link {
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color: var(--highlight-color);
+  background-color: var(--header-color);
+}
+
+.popup-exit {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: var(--popup-exit-bg);
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.memory_game {
+  border: solid var(--text-color);
+  border-radius: 8px;
+  background-color: var(--card-bg);
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: calc(25% - 10px);
+  margin: 5px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(0.99);
+}
+
+.card:active {
+  transform: scale(0.97);
+  transition: 0.2s;
+}
+
+.card.flip {
+  transform: rotateY(180deg);
+}
+
+.card.hidden {
+  visibility: hidden;
+}
+
+.front_card,
+.back_card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: var(--card-border-color) dotted 2px;
+  background-color: var(--text-color);
+  border-radius: 5px;
+  padding: 15px;
+  backface-visibility: hidden;
+}
+
+.front_card {
+  transform: rotateY(180deg);
+}

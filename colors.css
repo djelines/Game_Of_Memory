@@ -1,0 +1,16 @@
+:root {
+  --background-color: #e7d7c1;
+  --header-color: #372825;
+  --nav-color: #a78a7f;
+  --menu-color: #f19c79;
+  --menu-color-hover: #c87754;
+  --button-color: #bf4342;
+  --button-hover-color: #8c1c13;
+  --button-border-color: #735751;
+  --text-color: #8c1c13;
+  --highlight-color: #e7d7c1;
+  --popup-bg: #f4e8d4;
+  --popup-exit-bg: #735751;
+  --card-border-color: #a78a7f;
+  --card-bg: #f1d1c5;
+}

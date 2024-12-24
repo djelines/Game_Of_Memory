@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bolder;
+  font-style: italic;
+  text-shadow: #e07a5f 1px 0 10px;
+}
+
+/* Styles globaux pour le formulaire */
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: var(--menu-color);
+  border: 2px solid var(--header-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des labels */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--header-color);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Style des champs de saisie */
+form input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--header-color);
+  border-radius: 5px;
+  background-color: var(--highlight-color);
+  color: var(--text-color);
+  font-size: 14px;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+/* Effets sur focus des champs */
+form input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--menu-color);
+  box-shadow: 0 0 5px var(--menu-color);
+}
+
+/* Style du bouton d'envoi */
+form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Effet au survol du bouton */
+form button:hover {
+  background-color: var(--button-hover-color);
+  transform: scale(1.05);
+}
+
+/* Effet lors du clic sur le bouton */
+form button:active {
+  transform: scale(0.95);
+}
